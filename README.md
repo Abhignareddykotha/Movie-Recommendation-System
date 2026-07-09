@@ -1,22 +1,53 @@
-# Movie Recommendation System
+# 🎬 Movie Recommendation System
 
-## Overview
-This project is a simple content-based movie recommendation system built using Python. It recommends movies based on genre similarity using machine learning techniques.
+A simple **content-based Movie Recommendation System** developed using **Python**, **Pandas**, and **Scikit-learn**. The system recommends movies based on genre similarity using the **Cosine Similarity** algorithm.
 
-## Features
-- Recommends movies based on genre
-- Uses cosine similarity for recommendations
-- User-friendly command-line interface
+---
 
-## Technologies Used
+## 🚀 Features
+
+- Recommends similar movies based on genre
+- Uses Machine Learning concepts
+- Simple command-line interface
+- Fast and easy to use
+
+---
+
+## 🛠 Technologies Used
+
 - Python
 - Pandas
 - Scikit-learn
 
-## Dataset
-The project uses a custom dataset containing movie titles and genres.
+---
 
-## Installation
+## 📁 Project Structure
+
+```
+Movie-Recommendation-System/
+│── movie_recommender.py
+│── movies.csv
+│── requirements.txt
+│── README.md
+└── output.png
+```
+
+---
+
+## 📂 Dataset
+
+The dataset contains movie titles along with their genres.
+
+| Title | Genre |
+|--------|--------|
+| Avengers | Action |
+| Iron Man | Action |
+| Titanic | Romance |
+| Interstellar | Sci-Fi |
+
+---
+
+## ▶️ How to Run
 
 Install the required libraries:
 
@@ -24,27 +55,38 @@ Install the required libraries:
 pip install -r requirements.txt
 ```
 
-## Run the Project
+Run the program:
 
 ```bash
 python movie_recommender.py
 ```
 
-## Example
+---
 
-Input:
+## 📸 Sample Output
 
-```
-Enter Movie Name: Avengers
-```
+![Sample Output](output.png)
 
-Output:
+---
 
-```
-Recommended Movies:
+## 🧠 How It Works
 
-Iron Man
-Captain America
-Thor
-The Dark Knight
-```
+1. Reads movie data using Pandas.
+2. Converts movie genres into vectors using CountVectorizer.
+3. Calculates similarity using Cosine Similarity.
+4. Recommends the most similar movies.
+
+---
+
+## 📦 Requirements
+
+- pandas
+- scikit-learn
+
+---
+
+## 👩‍💻 Author
+
+**Abhigna Reddy**
+
+AI Internship Project – Codec Technologies
