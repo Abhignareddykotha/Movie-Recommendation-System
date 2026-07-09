@@ -65,7 +65,7 @@ python movie_recommender.py
 
 ## 📸 Sample Output
 
-![Sample Output](output.png..png)
+![Sample Output](output.png)
 
 ---
 
